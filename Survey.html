@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <header id="header">
+    <h1 id="title"> Yummy-Box </h1>
+    <p id="description" > Now you can choose what you want in your Yummy-box!</p>
+  </header>
+  <body>
+    <div id="form">
+      <form id="survey-form">
+            <label style="font-family: PT Sans, sans-serif" id="name-label" for="sur-name">Your name:</label><br>
+            <input id="name" type="text"  placeholder="Type your name here" required><br>
+            <label style="font-family: PT Sans, sans-serif" id="email-label" for="sur-email">Your email:</label><br>
+            <input id="email" type="email" placeholder="Type your email here" required><br>
+            <label style="font-family: PT Sans, sans-serif" id="number-label" for="sur-age">Your age (optional):</label><br>
+            <input id="number" type="number" placeholder="Type your age here..." min="0" max="99" required><br><br>
+            <label for="role" style="font-family: PT Sans, sans-serif">Which Yummy-box do you want to choose?</label><br>
+            <select name="role" id="dropdown">
+            <option value="Student">The Deluxe Edition</option>
+            <option value="Fulltime Job">Standard Size</option>
+            <option value="Fulltime Learning">Minibox</option>
+            <option value="Prefer Not To Say">Surprise Box</option>
+            <option value="Other">Cookie-box</option></select> <br> <br>
+
+            <label for="recommend" name="radioptions" id="radioptions"style="font-family: PT Sans, sans-serif"> Shipment method:</label><br>
+            <input value="goto" type="radio" name="radioptions" id="shipm">
+            <label for="Definitely" id="store" style="font-family: PT Sans, sans-serif"> At the store</label><br>
+            <input value="post" id="post"  type="radio" name="radioptions">
+            <label for="postoffice" id="post" style="font-family: PT Sans, sans-serif">Post office</label><br>
+            <input value="notsu" id="Not Sure" type="radio" name="radioptions"> 
+            <label for="NotSure" id="notsure" style="font-family: PT Sans, sans-serif">Not Sure</label> <br><br>
+            <label id="recom" for="types" style="font-family: PT Sans, sans-serif">What type of cookie do you want to include in your Yummy-box (Check all that apply): </label> <hr>
+            <input value="chips" id="checkbox" name="types" type="checkbox">
+            <label for="checkbox" style="font-family: PT Sans, sans-serif"> Chocolate Chips </label><br>
+            <input value="redv" id="checkbox" name="types" type="checkbox">
+            <label for="checkbox" style="font-family: PT Sans, sans-serif">Red Velvet</label><br>
+            <input value="oatss" id="checkbox" name="types" type="checkbox"> 
+            <label for="checkbox" style="font-family:PT Sans, sans-serif">Oatmeal Raisin </label> <br>
+            <input  value="gingerbread"  id="checkbox" name="types" type="checkbox"> 
+            <label for="checkbox" style="font-family:PT Sans, sans-serif">Gingerbread </label> <br>
+            <input value="fortune" id="checkbox" name="types" type="checkbox"> 
+            <label for="checkbox" style="font-family: PT Sans,sans-serif"> Fortune Cookies </label> <br> 
+          <input value="orange" id="checkbox" name="types" type="checkbox"> 
+            <label for="checkbox" style="font-family: PT Sans, sans-serif"> Orange </label> <br>
+          <input value="aota" id="checkbox" name="types" type="checkbox"> 
+            <label for="checkbox" style="font-family: PT Sans,sans-serif"> All of the above</label> <br><br>
+      
+            <label for="textarea" style="font-family: PT Sans, sans-serif">Any other requests? </label> <hr>
+            <textarea id="textarea" style="font-family:PT Sans, sans-serif ">Enter your comments here...</textarea> <br> <br>
+        <button id="submit">Enviar </button>
+        </form>
+    </div>
+  </body>
+</html>
+
